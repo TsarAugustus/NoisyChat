@@ -1,0 +1,31 @@
+{
+  "name": "noisychat",
+  "version": "0.0.0",
+  "description": "a chat room with encryptable/decryptable messages",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsarAugustus/NoisyChat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TsarAugustus/NoisyChat/issues"
+  },
+  "homepage": "https://github.com/TsarAugustus/NoisyChat#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cryptr": "^6.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mocha": "^7.1.2",
+    "mongoose": "^5.9.15",
+    "pug": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
