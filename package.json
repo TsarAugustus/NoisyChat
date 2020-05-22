@@ -5,6 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
+    "watch": "nodemon -e sass -x \"npm run build\"",
+    "build": "node-sass --include-path sass sass/style.sass public/stylesheets/style.css",
     "test": "mocha test"
   },
   "repository": {
@@ -25,6 +27,7 @@
     "express-session": "^1.17.1",
     "mocha": "^7.1.2",
     "mongoose": "^5.9.15",
+    "node-sass": "^4.14.1",
     "pug": "^2.0.4",
     "socket.io": "^2.3.0"
   }
